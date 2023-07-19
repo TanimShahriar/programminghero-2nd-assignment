@@ -317,6 +317,7 @@ li.follow-us {
   gap: 10px;
   border-radius: 50px;
   background: #FFF;
+  border: 1px solid transparent;
   transition: .6s;
 }
 
@@ -348,41 +349,77 @@ li.follow-us {
 
 
 /* footer section */
+.footer {
+  background: #0B0223;
+  color: #FFF;
+}
 
+.footer-section {
+  padding: 120px 500px;
+}
 
+.footer-menu-title {
+  color: #FFF;
+  font-size: 45px;
+  font-weight: 700;
+}
 
+.logo-container {
+  margin-left: 80px;
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
+}
 
+.logo-container img {
+  width: 80px;
+  height: 40px;
+}
 
+.footer-menu {
+  display: flex;
+  justify-content: space-around;
+}
 
+.footer-menu h6 {
+  font-size: 18px;
+  font-weight: 600;
+}
 
+.footer-icon {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 30px;
+}
 
-@media screen and (max-width: 576px) {
-  .banner-section {
-    flex-direction: column-reverse;
-    padding: 50px 0px;
-  }
+.footer-policy {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
 
-  .banner {
-    width: 570px;
-  }
+.footer-icon .twitt,
+.footer-icon .face,
+.footer-icon .linked,
+.footer-icon .apple,
+.footer-icon .you,
+.footer-icon .insta {
+  font-size: 30px;
+}
 
-  .nav-menu {
-    flex-direction: column;
-    width: 570px;
-  }
+.footer-policy {
+  color: rgba(255, 255, 255, 0.60);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+}
 
-  .menu-ul {
-    flex-direction: column;
-  }
-
-  .banner-img {
-    background-color: white;
-    margin: 0 auto;
-    width: 570px;
-  }
-
-  .banner-img img {
-    width: 100%;
-  }
-
+.footer-copyright {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.60);
+  font-size: 16px;
+  font-weight: 500;
 }
