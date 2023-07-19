@@ -118,6 +118,7 @@ body {
   background: #4EC5F7;
   padding: 15px 30px;
   border: 0;
+  margin-left: 20px;
 }
 
 /* about section */
@@ -181,6 +182,63 @@ body {
   font-weight: 700;
   line-height: 45px;
 }
+
+/* online games section */
+
+.online-game {
+  margin: 50px auto;
+  padding: 30px 180px;
+}
+
+.online-game-content {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.games-card-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.online-game-content h2 {
+  color: #0B0223;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.online-game-content .funny-videos {
+  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.online-game-content>p {
+  color: #534C64;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+
+.card p {
+  color: #534C64;
+  font-family: Work Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  width: 340px;
+}
+
+
+
+
+
+
+
 
 @media screen and (max-width: 576px) {
   .banner-section {
