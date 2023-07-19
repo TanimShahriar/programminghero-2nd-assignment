@@ -59,6 +59,7 @@ body {
 .banner {
   background-color: rgba(241, 68, 174, 0.03);
   margin: 50px 0px;
+  margin-bottom: 0px;
 }
 
 .banner-section {
@@ -117,6 +118,68 @@ body {
   background: #4EC5F7;
   padding: 15px 30px;
   border: 0;
+}
+
+/* about section */
+.about {
+  margin: 50px 0px;
+  margin-top: 0px;
+  background-color: rgba(241, 68, 174, 0.03);
+  padding: 50px 240px;
+}
+
+.about-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.about-content {
+  text-align: right;
+}
+
+.about-content h2 {
+  font-size: 48px;
+  font-weight: 700;
+  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.about-content p {
+  width: 520px;
+  color: #534C64;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 5px;
+}
+
+.know-more-btn {
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 48px;
+  background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+  padding: 15px 30px;
+  border: 0;
+  margin-top: 30px;
+}
+
+.about-content h6 {
+  color: #534C64;
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.about-content h4 {
+  color: #534C64;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 45px;
 }
 
 @media screen and (max-width: 576px) {
