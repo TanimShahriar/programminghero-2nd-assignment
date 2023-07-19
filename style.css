@@ -1,10 +1,14 @@
 body {
   font-family: 'Work Sans', sans-serif;
+  margin: 0px;
+  padding: 0px;
+  max-width: 1920px;
 }
 
 .header-section {
   max-width: 1440px;
-  margin: 20px auto;
+  margin: 0px auto;
+  color: rgba(255, 255, 255, 1);
 }
 
 .nav-menu {
@@ -63,7 +67,6 @@ li.follow-us {
 
 .banner {
   background-color: rgba(241, 68, 174, 0.03);
-  margin: 50px 0px;
   margin-bottom: 0px;
 }
 
@@ -240,19 +243,21 @@ li.follow-us {
 
 /* features section */
 .features {
-  padding: 30px 240px 30px 430px;
+  padding: 20px 50px;
+  margin-bottom: 50px;
 }
 
 .features-container {
   display: flex;
   justify-content: space-between;
-  gap: 100px;
+  align-items: center;
+  /* padding: 30px 240px 30px 440px; */
 }
 
 .features-content {
   text-align: right;
-  margin-right: 185px;
-  margin-top: 120px;
+  padding-left: 280px;
+  margin-left: 0px;
 }
 
 .features-content h2 {
@@ -279,20 +284,70 @@ li.follow-us {
   line-height: 30px;
 }
 
+
 .features-img .features-img-1 {
-  width: 100%;
+  width: 600px;
+  height: 600px;
   border-radius: 5px;
-  padding-left: 20px;
 }
 
-.features-img .features-img-2 {
+
+.features-img-2 {
+  width: 320px;
+  height: 350px;
   position: relative;
-  right: 25%;
-  bottom: 270px;
+  top: 70px;
+  right: 771px;
 }
 
 
 
+
+/* games category section */
+.games-category {
+  padding: 100px 240px;
+  background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+  margin: 0px;
+}
+
+
+.single-game {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 50px;
+  background: #FFF;
+  transition: .6s;
+}
+
+.single-game:hover {
+  cursor: pointer;
+  border: 1px solid #FF42A5;
+}
+
+.single-game p {
+  color: #0B0223;
+  font-size: 16px;
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+.games-category-container-1 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin-bottom: 50px;
+  column-gap: 50px;
+}
+
+.games-category-container-2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+}
+
+
+
+/* footer section */
 
 
 
