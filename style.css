@@ -6,14 +6,16 @@ body {
 }
 
 .header-section {
-  max-width: 1440px;
+  max-width: 1920px;
   margin: 0px auto;
-  color: rgba(255, 255, 255, 1);
+  background: #FFF;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
 
 .nav-menu {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  gap: 550px;
   align-items: center;
 }
 
@@ -66,7 +68,9 @@ li.follow-us {
 /* banner section */
 
 .banner {
-  background-color: rgba(241, 68, 174, 0.03);
+  background-image: url("assets/img/Group\ 14.png");
+  background-position: left top;
+  background-repeat: no-repeat;
   margin-bottom: 0px;
 }
 
@@ -408,6 +412,7 @@ li.follow-us {
 .footer-icon .you,
 .footer-icon .insta {
   font-size: 30px;
+  color: #fff;
 }
 
 .footer-policy {
