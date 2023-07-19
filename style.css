@@ -27,6 +27,7 @@ body {
 .menu-ul {
   display: flex;
   gap: 30px;
+  align-items: center;
 }
 
 .menu-ul li {
@@ -46,6 +47,10 @@ body {
   color: rgba(255, 66, 165, 1);
   font-size: 45px;
   font-weight: 700;
+}
+
+li.follow-us {
+  padding: 12px 1rem;
 }
 
 .follow-us {
@@ -233,6 +238,62 @@ body {
   width: 340px;
 }
 
+/* features section */
+.features {
+  padding: 30px 240px 30px 430px;
+}
+
+.features-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+}
+
+.features-content {
+  text-align: right;
+  margin-right: 185px;
+  margin-top: 120px;
+}
+
+.features-content h2 {
+  width: 350px;
+  color: #0B0223;
+  font-size: 48px;
+  line-height: 60px;
+}
+
+.play-instantly {
+  font-size: 48px;
+  font-weight: 700;
+  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.features-content p {
+  width: 350px;
+  color: #534C64;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.features-img .features-img-1 {
+  width: 100%;
+  border-radius: 5px;
+  padding-left: 20px;
+}
+
+.features-img .features-img-2 {
+  position: relative;
+  right: 25%;
+  bottom: 270px;
+}
+
+
+
+
 
 
 
@@ -269,10 +330,4 @@ body {
     width: 100%;
   }
 
-}
-
-@media screen and (min-width: 576px) and (max-width: 768px) {
-  .skyblue-btn {
-    background-color: red;
-  }
 }
