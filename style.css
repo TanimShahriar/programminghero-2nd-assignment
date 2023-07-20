@@ -529,9 +529,23 @@ li.follow-us {
   }
 
   .games-category-container-1 {
-    grid-template-columns: 150px 150px 150px;
+    display: flex;
     justify-content: center;
-    justify-items: end;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  #game1,
+  #game2,
+  #game3,
+  #game4,
+  #game5,
+  #game6,
+  #game7,
+  #game8,
+  #game9 {
+    margin-left: 0px;
+    width: 170px;
   }
 
   .single-game {
